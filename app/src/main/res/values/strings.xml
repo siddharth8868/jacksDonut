@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">JacksDonuts</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="default_progress_message">Loading please wait&#8230;</string>
+    <string name="button_label_ok">OK</string>
+    <string name="button_label_cancel">Cancel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_bar_title">Jack\'s Donuts</string>
+
+    <!--Nav Items-->
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_promotions">Promotions</string>
+    <string name="nav_item_account">Account</string>
+    <string name="nav_item_order_history">Order History</string>
+    <string name="nav_item_contact_us">Contact Us</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_promotions">PromotionsActivity</string>
+    <string name="title_activity_account">AccountActivity</string>
+    <string name="title_activity_order_history">OrderHistoryActivity</string>
+    <string name="title_activity_locations">LocationsActivity</string>
+    <string name="title_activity_template">TemplateActivity</string>
+
+    <!--Menu Types-->
+    <string name="menu_type_donuts">Donuts</string>
+    <string name="menu_type_drinks">Drinks</string>
+
+    <!--content description for image views-->
+    <string name="content_description_facebook_link">facebook link</string>
+    <string name="content_description_instagram_link">instagram link</string>
+    <string name="content_description_twitter_link">twitter link</string>
+    <string name="content_description_logo">Jack\'s Donuts Logo</string>
+    <string name="content_description_item_image">item image</string>
+
+    <!--Home-->
+    <string name="home">Home</string>
+    <string name="fragment_home_choose_location">Choose Your Location</string>
+    <string name="fragment_home_location_change_alert_msg">Location Already selected. By changing location your cart will be cleared.</string>
+
+    <!--Account-->
+    <string name="account">Account</string>
+    <string name="fragment_account_login_button">Login</string>
+    <string name="fragment_account_sign_up_button">Sign Up</string>
+    <string name="fragment_account_logout_button">Logout</string>
+    <string name="fragment_account_sign_up_text">Please login or sign up to order</string>
+    <string name="fragment_account_terms_and_conditions_text"><![CDATA[Terms & Conditions]]></string>
+
+    <string name="fragment_account_username">Username</string>
+    <string name="fragment_account_password">Password</string>
+    <string name="fragment_account_email">Email</string>
+
+    <string name="fragment_account_summery_welcome_msg">Hello [1] \nwelcome back!!</string>
+
+
+    <!--Locations-->
+    <string name="contact_us">Contact Us</string>
+
+
+    <!--Error messages-->
+    <string name="error_message_username_taken">Username already taken, try different username</string>
+    <string name="error_message_default_msg">Unable to process, please try again</string>
+    <string name="error_message_email_taken">Account already exists for this email address</string>
+
+
+</resources>

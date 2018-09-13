@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="works.jacksdonuts.view.account.SignUpFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/main_logo" />
+
+    <TextView
+        android:id="@+id/fragment_login_error_message_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fragment_login_details_layout"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/large_margin"
+        android:textColor="@color/red"
+        android:visibility="invisible"
+        tools:text="invalid username\n cannot be empty"
+        tools:visibility="visible"/>
+
+    <LinearLayout
+        android:id="@+id/fragment_login_details_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="90dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/fragment_login_username"
+            style="@style/EditText.SignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:backgroundTint="@color/white"
+            android:hint="@string/fragment_account_username" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/fragment_login_password"
+            style="@style/EditText.SignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="@string/fragment_account_password"/>
+
+        <Button
+            android:id="@+id/fragment_account_login_page_login_button"
+            style="@style/Button.Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@color/loginButtonColor"
+            android:text="@string/fragment_account_login_button" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/fragment_account_login_page_sign_up_button"
+        style="@style/Button.Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/signUpButtonColor"
+        android:text="@string/fragment_account_sign_up_button" />
+
+</RelativeLayout>

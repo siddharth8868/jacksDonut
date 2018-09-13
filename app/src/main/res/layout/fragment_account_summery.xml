@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="works.jacksdonuts.view.account.SignUpFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/fragment_account_summery_welcome_msg"
+        style="@style/TextView.MenuItemHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/larger_margin"
+        android:textColor="@color/white"
+        android:text="@string/fragment_account_summery_welcome_msg" />
+
+    <Button
+        android:id="@+id/fragment_account_summery_logout_button"
+        style="@style/Button.Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/signUpButtonColor"
+        android:layout_marginBottom="75dp"
+        android:text="@string/fragment_account_logout_button" />
+
+
+</RelativeLayout>

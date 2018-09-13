@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#312933</color>
+    <color name="colorPrimaryDark">#21191C</color>
+    <color name="colorAccent">#836c84</color>
+
+    <color name="nav_bar_background">#836c84</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#2E86C1</color>
+    <color name="gray">#A9A9A9</color>
+    <color name="gold">#C4B964</color>
+    <color name="red">@android:color/holo_red_dark</color>
+
+
+    <color name="lineSeparator">#D3D3D3</color>
+    <color name="signUpButtonColor">@color/colorPrimary</color>
+    <color name="loginButtonColor">@color/gold</color>
+
+</resources>
